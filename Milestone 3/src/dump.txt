@@ -1,0 +1,9 @@
+
+AST_ROOT_NODE
+	int
+		main
+			int
+				a
+				b
+		int
+			a

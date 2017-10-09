@@ -1,0 +1,329 @@
+graph {
+	0 [label=translational_unit]
+	5 [label=int]
+		4 -- 5
+	4 [label=type_specifier]
+		3 -- 4
+	3 [label=declaration_specifiers]
+		2 -- 3
+	9 [label=main]
+		8 -- 9
+	8 [label=direct_declarator]
+		7 -- 8
+	10 [label="("]
+		7 -- 10
+	11 [label=")"]
+		7 -- 11
+	7 [label=direct_declarator]
+		6 -- 7
+	6 [label=declarator]
+		2 -- 6
+	13 [label="{"]
+		12 -- 13
+	18 [label=if]
+		17 -- 18
+	19 [label="("]
+		17 -- 19
+	38 [label=c]
+		37 -- 38
+	37 [label=primary_expression]
+		36 -- 37
+	36 [label=postfix_expresssion]
+		35 -- 36
+	35 [label=unary_expression]
+		34 -- 35
+	34 [label=cast_expression]
+		33 -- 34
+	33 [label=multiplicative_expression]
+		32 -- 33
+	32 [label=additive_expression]
+		31 -- 32
+	31 [label=shift_expression]
+		30 -- 31
+	30 [label=relational_expression]
+		29 -- 30
+	29 [label=equality_expression]
+		28 -- 29
+	39 [label="=="]
+		28 -- 39
+	49 [label=0]
+		48 -- 49
+	48 [label=primary_expression]
+		47 -- 48
+	47 [label=primary_expression]
+		46 -- 47
+	46 [label=postfix_expresssion]
+		45 -- 46
+	45 [label=unary_expression]
+		44 -- 45
+	44 [label=cast_expression]
+		43 -- 44
+	43 [label=multiplicative_expression]
+		42 -- 43
+	42 [label=additive_expression]
+		41 -- 42
+	41 [label=shift_expression]
+		40 -- 41
+	40 [label=relational_expression]
+		28 -- 40
+	28 [label=equality_expression]
+		27 -- 28
+	27 [label=and_expression]
+		26 -- 27
+	26 [label=exclusive_or_expression]
+		25 -- 26
+	25 [label=inclusive_or_expression]
+		24 -- 25
+	24 [label=logical_and_expression]
+		23 -- 24
+	23 [label=logical_or_expression]
+		22 -- 23
+	22 [label=conditional_expression]
+		21 -- 22
+	21 [label=assignment_expression]
+		20 -- 21
+	20 [label=expression]
+		17 -- 20
+	50 [label=")"]
+		17 -- 50
+	53 [label="{"]
+		52 -- 53
+	77 [label=c]
+		76 -- 77
+	76 [label=primary_expression]
+		75 -- 76
+	75 [label=postfix_expresssion]
+		74 -- 75
+	78 [label="++"]
+		74 -- 78
+	74 [label=postfix_expresssion]
+		73 -- 74
+	73 [label=unary_expression]
+		72 -- 73
+	72 [label=cast_expression]
+		71 -- 72
+	71 [label=multiplicative_expression]
+		70 -- 71
+	70 [label=additive_expression]
+		69 -- 70
+	69 [label=shift_expression]
+		68 -- 69
+	68 [label=relational_expression]
+		67 -- 68
+	67 [label=equality_expression]
+		66 -- 67
+	66 [label=and_expression]
+		65 -- 66
+	65 [label=exclusive_or_expression]
+		64 -- 65
+	64 [label=inclusive_or_expression]
+		63 -- 64
+	63 [label=logical_and_expression]
+		62 -- 63
+	62 [label=logical_or_expression]
+		61 -- 62
+	61 [label=conditional_expression]
+		60 -- 61
+	60 [label=assignment_expression]
+		59 -- 60
+	59 [label=expression]
+		58 -- 59
+	79 [label=";"]
+		58 -- 79
+	58 [label=expression_statement]
+		57 -- 58
+	57 [label=statement]
+		56 -- 57
+	56 [label=block_item]
+		55 -- 56
+	55 [label=block_item_list]
+		54 -- 55
+	83 [label=if]
+		82 -- 83
+	84 [label="("]
+		82 -- 84
+	103 [label=a]
+		102 -- 103
+	102 [label=primary_expression]
+		101 -- 102
+	101 [label=postfix_expresssion]
+		100 -- 101
+	100 [label=unary_expression]
+		99 -- 100
+	99 [label=cast_expression]
+		98 -- 99
+	98 [label=multiplicative_expression]
+		97 -- 98
+	97 [label=additive_expression]
+		96 -- 97
+	96 [label=shift_expression]
+		95 -- 96
+	95 [label=relational_expression]
+		94 -- 95
+	94 [label=equality_expression]
+		93 -- 94
+	104 [label="=="]
+		93 -- 104
+	113 [label=b]
+		112 -- 113
+	112 [label=primary_expression]
+		111 -- 112
+	111 [label=postfix_expresssion]
+		110 -- 111
+	110 [label=unary_expression]
+		109 -- 110
+	109 [label=cast_expression]
+		108 -- 109
+	108 [label=multiplicative_expression]
+		107 -- 108
+	107 [label=additive_expression]
+		106 -- 107
+	106 [label=shift_expression]
+		105 -- 106
+	105 [label=relational_expression]
+		93 -- 105
+	93 [label=equality_expression]
+		92 -- 93
+	92 [label=and_expression]
+		91 -- 92
+	91 [label=exclusive_or_expression]
+		90 -- 91
+	90 [label=inclusive_or_expression]
+		89 -- 90
+	89 [label=logical_and_expression]
+		88 -- 89
+	88 [label=logical_or_expression]
+		87 -- 88
+	87 [label=conditional_expression]
+		86 -- 87
+	86 [label=assignment_expression]
+		85 -- 86
+	85 [label=expression]
+		82 -- 85
+	114 [label=")"]
+		82 -- 114
+	135 [label=a]
+		134 -- 135
+	134 [label=primary_expression]
+		133 -- 134
+	133 [label=postfix_expresssion]
+		132 -- 133
+	136 [label="++"]
+		132 -- 136
+	132 [label=postfix_expresssion]
+		131 -- 132
+	131 [label=unary_expression]
+		130 -- 131
+	130 [label=cast_expression]
+		129 -- 130
+	129 [label=multiplicative_expression]
+		128 -- 129
+	128 [label=additive_expression]
+		127 -- 128
+	127 [label=shift_expression]
+		126 -- 127
+	126 [label=relational_expression]
+		125 -- 126
+	125 [label=equality_expression]
+		124 -- 125
+	124 [label=and_expression]
+		123 -- 124
+	123 [label=exclusive_or_expression]
+		122 -- 123
+	122 [label=inclusive_or_expression]
+		121 -- 122
+	121 [label=logical_and_expression]
+		120 -- 121
+	120 [label=logical_or_expression]
+		119 -- 120
+	119 [label=conditional_expression]
+		118 -- 119
+	118 [label=assignment_expression]
+		117 -- 118
+	117 [label=expression]
+		116 -- 117
+	137 [label=";"]
+		116 -- 137
+	116 [label=expression_statement]
+		115 -- 116
+	115 [label=statement]
+		82 -- 115
+	82 [label=selection_statement]
+		81 -- 82
+	81 [label=statement]
+		80 -- 81
+	80 [label=block_item]
+		54 -- 80
+	54 [label=block_item_list]
+		52 -- 54
+	138 [label="}"]
+		52 -- 138
+	52 [label=compound_statement]
+		51 -- 52
+	51 [label=statement]
+		17 -- 51
+	139 [label=else]
+		17 -- 139
+	160 [label=b]
+		159 -- 160
+	159 [label=primary_expression]
+		158 -- 159
+	158 [label=postfix_expresssion]
+		157 -- 158
+	161 [label="++"]
+		157 -- 161
+	157 [label=postfix_expresssion]
+		156 -- 157
+	156 [label=unary_expression]
+		155 -- 156
+	155 [label=cast_expression]
+		154 -- 155
+	154 [label=multiplicative_expression]
+		153 -- 154
+	153 [label=additive_expression]
+		152 -- 153
+	152 [label=shift_expression]
+		151 -- 152
+	151 [label=relational_expression]
+		150 -- 151
+	150 [label=equality_expression]
+		149 -- 150
+	149 [label=and_expression]
+		148 -- 149
+	148 [label=exclusive_or_expression]
+		147 -- 148
+	147 [label=inclusive_or_expression]
+		146 -- 147
+	146 [label=logical_and_expression]
+		145 -- 146
+	145 [label=logical_or_expression]
+		144 -- 145
+	144 [label=conditional_expression]
+		143 -- 144
+	143 [label=assignment_expression]
+		142 -- 143
+	142 [label=expression]
+		141 -- 142
+	162 [label=";"]
+		141 -- 162
+	141 [label=expression_statement]
+		140 -- 141
+	140 [label=statement]
+		17 -- 140
+	17 [label=selection_statement]
+		16 -- 17
+	16 [label=statement]
+		15 -- 16
+	15 [label=block_item]
+		14 -- 15
+	14 [label=block_item_list]
+		12 -- 14
+	163 [label="}"]
+		12 -- 163
+	12 [label=compound_statement]
+		2 -- 12
+	2 [label=function_definition]
+		1 -- 2
+	1 [label=external_declaration]
+		0 -- 1
+}

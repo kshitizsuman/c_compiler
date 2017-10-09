@@ -1,0 +1,4 @@
+          Table Number = 5
+Name,Type,Pointer,Array,Index1,Index2
+arr,int,0,0,0,0
+n,int,0,0,0,0

@@ -1,0 +1,17 @@
+graph {
+	0 [label=AST_ROOT_NODE]
+	1 [label=int]
+		0 -- 1
+	2 [label=main]
+		1 -- 2
+	3 [label=int]
+		2 -- 3
+	4 [label=a]
+		3 -- 4
+	5 [label=b]
+		3 -- 5
+	6 [label=int]
+		1 -- 6
+	7 [label=a]
+		6 -- 7
+}

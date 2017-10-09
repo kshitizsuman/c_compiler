@@ -1,0 +1,116 @@
+type_specifier_4
+declaration_specifiers_4
+direct_declarator_1
+direct_declarator_13
+declarator_2
+type_specifier_4
+declaration_specifiers_4
+direct_declarator_1
+declarator_2
+init_declarator_2
+init_declarator_list_1
+declaration_2
+block_item_1
+block_item_list_1
+constant_1
+primary_expression_2
+postfix_expresssion_1
+unary_expression_1
+cast_expression_1
+multiplicative_expression_1
+additive_expression_1
+shift_expression_1
+relational_expression_1
+equality_expression_1
+and_expression_1
+exclusive_or_expression_1
+inclusive_or_expression_1
+logical_and_expression_1
+logical_or_expression_1
+conditional_expression_1
+assignment_expression_1
+expression_1
+jump_statement_5
+statement_6
+block_item_2
+block_item_list_2
+compound_statement_2
+function_definition_2
+external_declaration_1
+translational_unit_1
+graph {
+	0 [label=translational_unit]
+	5 [label=int]
+		4 -- 5
+	4 [label=type_specifier]
+		3 -- 4
+	3 [label=declaration_specifiers]
+		2 -- 3
+	9 [label=main]
+		8 -- 9
+	8 [label=direct_declarator]
+		7 -- 8
+	10 [label="("]
+		7 -- 10
+	11 [label=")"]
+		7 -- 11
+	7 [label=direct_declarator]
+		6 -- 7
+	6 [label=declarator]
+		2 -- 6
+	13 [label="{"]
+		12 -- 13
+	20 [label=int]
+		19 -- 20
+	19 [label=type_specifier]
+		18 -- 19
+	18 [label=declaration_specifiers]
+		17 -- 18
+	25 [label=a]
+		24 -- 25
+	24 [label=direct_declarator]
+		23 -- 24
+	23 [label=declarator]
+		22 -- 23
+	22 [label=init_declarator]
+		21 -- 22
+	21 [label=init_declarator_list]
+		17 -- 21
+	26 [label=";"]
+		17 -- 26
+	17 [label=declaration]
+		16 -- 17
+	16 [label=block_item]
+		15 -- 16
+	15 [label=block_item_list]
+		14 -- 15
+	30 [label=return]
+		29 -- 30
+	34 [label=0]
+		33 -- 34
+	33 [label=constant]
+		32 -- 33
+	32 [label=primary_expression]
+		31 -- 32
+	31 [label=expression]
+		29 -- 31
+	35 [label=";"]
+		29 -- 35
+	29 [label=jump_statement]
+		28 -- 29
+	28 [label=statement]
+		27 -- 28
+	27 [label=block_item]
+		14 -- 27
+	14 [label=block_item_list]
+		12 -- 14
+	36 [label="}"]
+		12 -- 36
+	12 [label=compound_statement]
+		2 -- 12
+	2 [label=function_definition]
+		1 -- 2
+	1 [label=external_declaration]
+		0 -- 1
+}
+('translational_unit', ('external_declaration', ('function_definition', ('declaration_specifiers', ('type_specifier', 'int')), ('declarator', ('direct_declarator', ('direct_declarator', 'main'), '(', ')')), ('compound_statement', '{', ('block_item_list', ('block_item_list', ('block_item', ('declaration', ('declaration_specifiers', ('type_specifier', 'int')), ('init_declarator_list', ('init_declarator', ('declarator', ('direct_declarator', 'a')))), ';'))), ('block_item', ('statement', ('jump_statement', 'return', ('expression', ('primary_expression', ('constant', '0'))), ';')))), '}'))))
